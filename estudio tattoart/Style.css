@@ -1,0 +1,176 @@
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Estilos para a navegação */
+nav {
+    display: flex; /* Exibir elementos da navegação em linha */
+    justify-content: space-between; /* Alinhar elementos da navegação à esquerda e à direita */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 0 20px; /* Espaçamento interno horizontal */
+    color: white; /* Cor do texto */
+}
+
+/* Estilos para o logotipo */
+.logo {
+    display: flex; /* Exibir elementos do logotipo em linha */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.logo img {
+    width: 50px; /* Largura da imagem do logotipo */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 10px; /* Espaçamento à direita da imagem do logotipo */
+}
+
+/* Estilos para o título do logotipo */
+.logo h1 {
+    font-size: 24px; /* Tamanho da fonte */
+    margin: 0; /* Remover margens padrão */
+}
+
+/* Estilos para a lista de menu */
+.menu {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover preenchimento padrão da lista */
+    display: flex; /* Exibir itens de menu em linha */
+}
+
+.menu li {
+    margin-right: 20px; /* Espaçamento à direita entre os itens do menu */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Remover o espaçamento à direita do último item do menu */
+}
+
+/* Estilos para links de menu */
+.menu a {
+    text-decoration: none; /* Remover sublinhado de links */
+    color: white; /* Cor do texto dos links */
+    font-weight: bold; /* Peso da fonte */
+}
+
+/* Estilos para links de menu quando hover */
+.menu a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+
+/* Estilos para a classe input-group */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o ícone do Instagram */
+.input-group .input-group-text {
+    background-color: #e8e8e8;
+    color: #000;
+}
+
+/* Estilos para os campos de entrada */
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* Estilos para o campo de data e hora */
+input[type="date"],
+input[type="time"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Estilos para o container do rodapé */
+.container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralizar o container na página */
+    padding: 0 20px; /* Espaçamento interno horizontal do container */
+}
+
+/* Estilos para o conteúdo do rodapé */
+.footer-content {
+    display: flex; /* Exibir elementos do rodapé em linha */
+    justify-content: space-between; /* Alinhar elementos do rodapé à esquerda e à direita */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+/* Estilos para o logo no rodapé */
+.footer-logo img {
+    width: 50px; /* Largura da imagem do logo */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 10px; /* Espaçamento à direita da imagem do logo */
+}
+
+/* Estilos para o título do rodapé */
+.footer-logo h2 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin: 0; /* Remover margens padrão */
+}
+
+/* Estilos para as informações de contato no rodapé */
+.footer-contact p {
+    margin: 5px 0; /* Espaçamento vertical entre os parágrafos de contato */
+}
+
+/* Estilos para os links sociais no rodapé */
+.footer-social a {
+    text-decoration: none; /* Remover sublinhado dos links sociais */
+    color: #fff; /* Cor do texto dos links sociais */
+    margin-right: 10px; /* Espaçamento à direita entre os links sociais */
+}
+
+/* Estilos para os links sociais no rodapé quando hover */
+.footer-social a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre os links sociais */
+}
+
+
+        /* Estilo personalizado para o carrossel */
+        #carouselExample {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .carousel-inner {
+            text-align: center;
+        }
+
+        .carousel-item img {
+            max-height: 400px;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        .portifolio{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 2vw;
+            padding: 0 1vw;
+
+        }
+        .portifolio-imagens img {
+            width: 340px;
+            height: 250px;
+            border:  10px solid black;
+            box-shadow:  5px 5px 5px black ;
+            flex-grow: 1;
+        }
+        .portifolio-imagens img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
